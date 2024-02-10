@@ -20,5 +20,8 @@ config.window_frame = {
   font = wezterm.font { family = 'Roboto', weight = 'Regular' },
 }
 
+config.window_background_opacity = 0.9
+config.text_background_opacity = 1.0
+
 -- and finally, return the configuration to wezterm
 return config
