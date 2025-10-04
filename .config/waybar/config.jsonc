@@ -13,7 +13,7 @@
     "cpu",
     "memory",
     "tray",
-    "pulseaudio",
+    "wireplumber",
     "custom/lock",
     "custom/power"
   ],
@@ -73,7 +73,7 @@
     "exec": "sh -c '(uptime -p)'"
   },
 
-  "pulseaudio": {
+  "wireplumber": {
     "format": "{icon} {volume}%",
     "format-muted": "",
     "format-icons": {
