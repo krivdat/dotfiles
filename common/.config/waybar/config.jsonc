@@ -13,7 +13,7 @@
     "cpu",
     "memory",
     "tray",
-    "pulseaudio",
+    "wireplumber",
     "custom/lock",
     "custom/power"
   ],
@@ -42,7 +42,7 @@
   },
 
   "clock": {
-   // "timezone": "America/Fortaleza",
+    // "timezone": "America/Fortaleza",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
     "format": "{:%d/%m/%Y - %H:%M:%S}",
     "interval": 1
@@ -73,7 +73,7 @@
     "exec": "sh -c '(uptime -p)'"
   },
 
-  "pulseaudio": {
+  "wireplumber": {
     "format": "{icon} {volume}%",
     "format-muted": "",
     "format-icons": {

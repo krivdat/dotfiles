@@ -45,7 +45,7 @@ button {
 #bluetooth,
 #clock,
 #battery,
-#pulseaudio,
+#wireplumber,
 #network,
 #cpu,
 #memory,
@@ -94,7 +94,7 @@ button {
   border-radius: 0;
 }
 
-#pulseaudio {
+#wireplumber {
   color: #ea999c;
   border-radius: 5px 0px 0px 5px;
 }
