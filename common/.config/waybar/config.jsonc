@@ -51,6 +51,7 @@
   "network": {
     "format-wifi": "󰤢 {essid}",
     "format-ethernet": "󰈀 {bandwidthDownBits}",
+    "format-ethernet": "󰈀 d:{bandwidthDownBits}-u:{bandwidthUpBits}",
     "format-disconnected": "󰤠 No Network",
     "interval": 3,
     "tooltip": false
